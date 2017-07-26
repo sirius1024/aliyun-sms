@@ -1,0 +1,98 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "aliyun-sms-sdk",
+        "scope": null,
+        "escapedName": "aliyun-sms-sdk",
+        "name": "aliyun-sms-sdk",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/sirius/Desktop/iHealth/aliyun-sms"
+    ]
+  ],
+  "_from": "aliyun-sms-sdk@latest",
+  "_id": "aliyun-sms-sdk@0.0.1",
+  "_inCache": true,
+  "_location": "/aliyun-sms-sdk",
+  "_nodeVersion": "7.9.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/aliyun-sms-sdk-0.0.1.tgz_1501060843295_0.028685487806797028"
+  },
+  "_npmUser": {
+    "name": "sirius1024",
+    "email": "cealer@foxmail.com"
+  },
+  "_npmVersion": "4.2.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "aliyun-sms-sdk",
+    "scope": null,
+    "escapedName": "aliyun-sms-sdk",
+    "name": "aliyun-sms-sdk",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/aliyun-sms-sdk/-/aliyun-sms-sdk-0.0.1.tgz",
+  "_shasum": "246902aba0d8e07c5310d32251084c27a14e0f56",
+  "_shrinkwrap": null,
+  "_spec": "aliyun-sms-sdk",
+  "_where": "/Users/sirius/Desktop/iHealth/aliyun-sms",
+  "author": {
+    "name": "sirius",
+    "email": "cealer@foxmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sirius1024/aliyun-sms/issues"
+  },
+  "dependencies": {
+    "ali-mns": "^2.6.4",
+    "request": "^2.81.0",
+    "uuid": "^3.1.0"
+  },
+  "description": "阿里云短信模块在node.js上的实现",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "246902aba0d8e07c5310d32251084c27a14e0f56",
+    "tarball": "https://registry.npmjs.org/aliyun-sms-sdk/-/aliyun-sms-sdk-0.0.1.tgz"
+  },
+  "gitHead": "4de09878c006cb175a9533584cbc5d386cca16a5",
+  "homepage": "https://github.com/sirius1024/aliyun-sms#readme",
+  "keywords": [
+    "aliyun",
+    "ali",
+    "sms",
+    "sirius",
+    "ali-sms",
+    "aliyun-sms-sdk",
+    "alibaba"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "sirius1024",
+      "email": "cealer@foxmail.com"
+    }
+  ],
+  "name": "aliyun-sms-sdk",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirius1024/aliyun-sms.git"
+  },
+  "scripts": {
+    "test": "node ./test/send"
+  },
+  "version": "0.0.1"
+}
