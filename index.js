@@ -1,5 +1,2 @@
-let send = require('./lib/smsSend');
-
-module.exports = {
-  send: send.send
-}
+let sms = require('./lib');
+module.exports = sms
