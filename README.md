@@ -27,15 +27,6 @@ const confSend = {
     param: { "username": "Sirius" }
 };
 
-<<<<<<< HEAD
-let conf = {
-  accessKeyId: '<Your accessKeyId>', //阿里云后台获取
-  accessKeySecret: '<Your accessKeySecret>', // 阿里云后台获取
-  recNum: ['接收号码1', '接收号码2', ...],
-  signName: '短信签名，需要在阿里云后台申请，e.g. 【健康提醒】',
-  templateCode: '短信模板代码，需要在阿里云后台申请， e.g. SMS_XXXXXX',
-  param: { user: 'Sirius' }, //根据短信模板编写object替换模板参数
-=======
 aliSms.send(confSend);  //发送短信
 ```
 
@@ -48,19 +39,12 @@ aliSms.send(confSend);  //发送短信
     RequestId: '502FC867-40EB-4A9F-8561-3272FBF7C4CB',
     BizId: '109226971936^1112321971296',
     Code: 'OK' 
->>>>>>> sirius-dev
 }
 ```
 
 ## receive()
 ```js
 
-<<<<<<< HEAD
-aliSms.send(conf, (err, body) => {
-  console.error(err);
-  console.log(body);
-});
-=======
 const aliSms = require('aliyun-sms-sdk');
 const confReceive = {
     accessKeyId: 'Your accessKeyId',
@@ -131,15 +115,10 @@ node test/send
 
 #receive short message upload
 node test/receive
->>>>>>> sirius-dev
 ```
 
 ## 补充说明
 
-<<<<<<< HEAD
-阿里云暂时没有提供短信服务MNS部分的API，作者尝试使用ali-mns npm package去实现，奈何文档太少，又没有足够的时间去查看已有SDK的源码。所以只实现了发送短信的功能，接收用户上行短信的部分还是使用官方python的SDK。
-=======
 阿里云提供了Node.js版本的短信服务SDK，但是比较简陋。作者因公司业务需要，没有对本项目进行优化和架构（实在也是简单），如有意见、建议或bug，请直接提issue给我。
 
 官方的SDK中已经实现了查询短信发送记录和短信发送状态回执的方法，我司项目暂时不需要这两个方法，项目完成后，我会把这两个方法补上，一定，一定。
->>>>>>> sirius-dev
