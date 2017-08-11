@@ -91,7 +91,7 @@ aliSms.receive(confReceive);   //接收用户发来的短信（短信上行）
 receiveMsg是消费一条消息，其中body.MessageBody需要进行Base64解码：
 
 ```js
-const msgBody = new Buffer(result.body.MessageBody).toString('base64');
+const msgBody = new Buffer(result.body.MessageBody, 'base64').toString();
 console.log(msgBody);
 ```
 
